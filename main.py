@@ -2,27 +2,32 @@ from functions import *
 
 def menu():
     print("\n==== Programming Quotes ====")
-    print("1. Random quote")
-    print("2. Display count")
-    print("3. Add quote")
-    print("4. Exit")
+
+    print("random : Random quote")
+    print("display : Display quotes")
+    print("add : Add a new quote")
+    print("exit : Exit the program")
+
 
 def main():
     while True:
         quotes = load_quotes("quotes.txt")
         menu()
 
-        choice = input("Chose your an action(1-4) : ")
+
+        choice = input(">> ")
+
         
-        if choice == "1":
+        if choice == "random":
             print_quote(random_quote(quotes))
-        elif choice == "2":
-            count = int(input("how many qote u want to add ? "))
+
+        elif choice == "display":
+            count = int(input("Enter the number of quotes to display: "))
             display_quotes(quotes, count)
-        elif choice == "3":
+        elif choice == "add":
             add_quote(quotes, "quotes.txt")
-            print("Quote added!")
-        elif choice == "4":
+        elif choice == "exit":
+
             print("Good bye...")
             break
         else:

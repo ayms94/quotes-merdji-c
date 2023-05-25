@@ -4,9 +4,9 @@ A python program that generates programming quotes and jokes.
 
 ## Contributors
 - `initiator`: MERDJI Aymane Group C
-- `contributor-1`: AID SAID Assila Group C
-- `contributor-2`: AIFI Milhane Groupe C  
+- `contributor-1`: AIFI Milhane Group C
+- `contributor-2`: AIT SAID Assila Group C  
 
 ## Fork urls
-- `contributor-1`: [quotes-bar-b](url-1)
-- `contributor-2`: [quotes-wizz-b](url-2)
+- `contributor-1`: [quotes-aifi-b](https://github.com/Milyagami/quotes-aifi-c)
+- `contributor-2`: [quotes-aitsaid-b](https://github.com/assilas/quotes-aitsaid-c)
