@@ -29,5 +29,3 @@ def display_quotes(quotes, count):
         print(f"First {count} Quotes:")
         for i in range(count):
             print_quote(quotes[i])
-
-#
